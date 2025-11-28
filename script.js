@@ -1,8 +1,8 @@
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': '95e77bf67a49458b87e132146250711',
-        'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
+        'api-key': 
+        'api-host': 
     }
 }
 const getWeather = (city)=>{
@@ -33,3 +33,4 @@ submit.addEventListener("click", (e)=>{
 })
 
 getWeather("New Delhi")
+
