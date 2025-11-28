@@ -7,7 +7,7 @@ const options = {
 }
 const getWeather = (city)=>{
     cityname.innerHTML = city
-fetch('https://api.weatherapi.com/v1/forecast.json?key=95e77bf67a49458b87e132146250711&q=' + city, options)
+fetch('Api url=' + city, options)
     .then(response => response.json())
     .then(data => {
         console.log(data); 
@@ -33,4 +33,5 @@ submit.addEventListener("click", (e)=>{
 })
 
 getWeather("New Delhi")
+
 
