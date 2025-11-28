@@ -1,6 +1,6 @@
 
 const weatherApp = {
-  apiKey: "95e77bf67a49458b87e132146250711",
+  apiKey: "",
   cities: ["Uttarakhand", "Jaipur", "Dubai", "London"],
 
 
@@ -46,3 +46,4 @@ const weatherApp = {
 
 
 weatherApp.loadWeatherData();
+
